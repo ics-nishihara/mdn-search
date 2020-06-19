@@ -1,0 +1,15 @@
+{
+  "name": "mdn_custom_search",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ics-nishihara/mdn-search.git",
+  "author": "ics-nishihara <nishihara@ics-web.jp>",
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "2.0.5",
+    "sass": "1.26.8"
+  },
+  "scripts": {
+    "sass": "sass style.scss style.css --watch"
+  }
+}

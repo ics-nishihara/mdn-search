@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+}
+
+.globalWrapper{
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#customSearch{
+  .pageTitle{
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 12px;
+    line-height: 1.1;
+  }
+  .gsc-input-box{
+    padding:0 8px 0 0;
+    border-radius: 12px;
+    margin-right: 8px;
+  }
+  input.gsc-input{
+    padding: 8px !important;
+
+  }
+  .gsc-search-button-v2{
+    padding: 14px 27px;
+    border-radius: 12px;
+    svg{
+      width: 18px;
+      height: 18px;
+    }
+  }
+  .gsc-webResult{
+    padding: 16px 0;
+  }
+  .gs-title{
+    font-size: 18px;
+  }
+  .gs-visibleUrl{
+    font-size: 14px;
+    padding: 4px 0;
+  }
+  .gs-snippet{
+    font-size: 14px;
+    line-height: 1.7;
+  }
+  .gsc-cursor-page{
+    font-size: 18px;
+    margin-right: 16px;
+    padding: 0 4px;
+  }
+  .gsc-expansionArea{
+    margin-bottom: 24px;
+  }
+}
